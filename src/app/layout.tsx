@@ -26,8 +26,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Navbar/>
       <body className={`${schibstedGrotesk.variable} ${martianMono.variable}`}>
+      <Navbar/>
         <div className="absolute inset-0 z-[-1] min-h-screen">
           <LightRays
             raysOrigin="top-center-offset"

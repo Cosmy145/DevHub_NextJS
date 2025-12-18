@@ -47,7 +47,7 @@ const EventTags = ({ tags }: { tags: string[] }) => (
 
 const EventDetails = async ({ params }: { params: Promise<string> }) => {
   'use cache'
-  cacheLgit ife('hours');
+  cacheLife('hours');
   const slug = await params;
 
   let event;
